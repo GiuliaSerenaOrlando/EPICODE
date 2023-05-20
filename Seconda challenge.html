@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di registrazione</title>
+</head>
+
+<body style="background-color: whitesmoke;">
+    <header>
+        <img src="./musiclogo.png" alt="logo" width="30px" style="float:left; display: inline-block; margin-right: 5px;" />
+        <h1 style="color:#137c86; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">MUSIC STREAMING</h1>
+    </header>
+
+    <h2>Iscriviti e ascolta la musica, dove vuoi, senza pubblicità.</h2>
+    <form onsubmit="alert('Registrazione inviata!')">
+        <div><input type="text" name="" placeholder="Inserisci il tuo nome"></div>
+        <br>
+        <div><input type="text" name="" placeholder="Inserisci il tuo cognome"></div>
+        <br>
+        <div><input type="email" name="" placeholder="Inserisci il tuo indirizzo e-mail"></div>
+        <br>
+        <div><input type="password" name="" placeholder="Crea la tua password" minlength="8" inputmode="numeric"> <span>La password dev'essere di otto caratteri e numerica</span></div>
+        <br>
+        <div><input type="date" name="" placeholder="Inserisci la tua data di nascita"></div>
+        <br>
+        <div><input type="num" placeholder="Inserisci il tuo numero di telefono"></div>
+        <br>
+        <div>
+            <p>I tuoi generi preferiti</p>
+            <input type="checkbox" name="metal"> <span>Musica classica</span>
+            <input type="checkbox" name="metal"> <span>Metal</span>
+            <input type="checkbox" name="metal"> <span>Elettronica</span>
+            <input type="checkbox" name="metal"> <span>Rock</span>
+            <input type="checkbox" name="metal"> <span>Pop</span>
+        </div>
+        <br>
+        <input type="radio"> <span>Accettazione dei termini e delle condizioni</span>
+        <br>
+        <br>
+        <button type="submit">Invia registrazione</button>
+    </form>
+</body>
+
+</html>
